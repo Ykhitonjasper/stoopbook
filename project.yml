@@ -13,7 +13,7 @@ settings:
     GENERATE_INFOPLIST_FILE: YES
     INFOPLIST_FILE: StoopBook/Info.plist
     MARKETING_VERSION: "1.0.0"
-    CURRENT_PROJECT_VERSION: "1"
+    CURRENT_PROJECT_VERSION: "2"
     PRODUCT_BUNDLE_IDENTIFIER: com.MarioCarmona.StoopBook
     PRODUCT_NAME: StoopBook
     DEVELOPMENT_TEAM: "QPN38WN543"
@@ -38,6 +38,7 @@ targets:
         TARGETED_DEVICE_FAMILY: "1"
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        INFOPLIST_KEY_CFBundleName: "Table MapsGpsAi"
         INFOPLIST_KEY_CFBundleDisplayName: "Table MapsGpsAi"
         PRODUCT_BUNDLE_IDENTIFIER: com.MarioCarmona.StoopBook
         PRODUCT_DISPLAY_NAME: "Table MapsGpsAi"
