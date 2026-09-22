@@ -1,0 +1,89 @@
+# Copy to AppRoot/codemagic.yaml and fill XCODE_* / BUNDLE_ID.
+# Policy: build + sign IPA only. No ASC publishing of metadata/screenshots/submit.
+# Human uploads IPA (Transporter) and fills listing / keys in ASC by hand.
+
+workflows:
+  app-store-release:
+    name: App Store Build (IPA only)
+    max_build_duration: 120
+    instance_type: mac_mini_m2
+
+    environment:
+      xcode: latest
+      groups:
+        - app_store_credentials
+      vars:
+        XCODE_PROJECT: StoopBook.xcodeproj
+        XCODE_SCHEME: StoopBook
+        BUNDLE_ID: com.MarioCarmona.StoopBook
+        # Must match project.yml after any rename (rename-brand.py should rewrite these).
+
+    triggering:
+      events:
+        - push
+      branch_patterns:
+        - pattern: main
+          include: true
+
+    scripts:
+      - name: Install XcodeGen
+        script: brew install xcodegen
+
+      - name: Generate Xcode project
+        script: xcodegen generate
+
+      - name: Set up keychain for code signing
+        script: keychain initialize
+
+      - name: Prepare certificate private key
+        script: |
+          set -e
+          if [ -z "$CERTIFICATE_PRIVATE_KEY" ]; then
+            echo "Missing CERTIFICATE_PRIVATE_KEY in app_store_credentials."
+            exit 1
+          fi
+
+          KEY_FILE=/tmp/certificate_key.pem
+          printf '%b' "$(echo "$CERTIFICATE_PRIVATE_KEY" | sed 's/\\n/\n/g')" > "$KEY_FILE"
+
+          if ! openssl rsa -in "$KEY_FILE" -check -noout 2>/dev/null; then
+            echo "Converting PKCS#8 private key to RSA PEM format..."
+            openssl rsa -in "$KEY_FILE" -out "${KEY_FILE}.rsa" 2>/dev/null || true
+            if [ -f "${KEY_FILE}.rsa" ]; then
+              mv "${KEY_FILE}.rsa" "$KEY_FILE"
+            fi
+          fi
+
+          if ! openssl rsa -in "$KEY_FILE" -check -noout 2>/dev/null; then
+            echo "CERTIFICATE_PRIVATE_KEY is not a valid RSA private key."
+            exit 1
+          fi
+
+      - name: Fetch signing files
+        script: |
+          app-store-connect fetch-signing-files "$BUNDLE_ID" \
+            --type IOS_APP_STORE \
+            --create \
+            --certificate-key @file:/tmp/certificate_key.pem
+
+      - name: Add certificates to keychain
+        script: keychain add-certificates
+
+      - name: Set up code signing
+        script: |
+          xcode-project use-profiles \
+            --project "$CM_BUILD_DIR/$XCODE_PROJECT" \
+            --archive-method app-store
+
+      - name: Build IPA
+        script: |
+          xcode-project build-ipa \
+            --project "$CM_BUILD_DIR/$XCODE_PROJECT" \
+            --scheme "$XCODE_SCHEME"
+
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+
+    # Do NOT add publishing.app_store_connect here.
+    # No submit_to_app_store / no auto screenshots / no version copy push.

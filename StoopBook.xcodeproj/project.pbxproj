@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		012CEA4C0BBC1A7658E2BFB2 /* DomainModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E0D870CF3B3F87B39CB28B /* DomainModels.swift */; };
+		03C853F5772339892C0C5335 /* SignatureLineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34009912C76370CDD1DFD6CA /* SignatureLineUITests.swift */; };
+		081646E8F26F3DD1DB206A26 /* PatrolEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B61FFDA133B0367B12E0C5 /* PatrolEngine.swift */; };
+		08F751910C20F08699CC52F9 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934AC45694F3255835C72F48 /* OnboardingScreen.swift */; };
+		122A62E5FAD2631A0CB227D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58D7B3490C789FFC029C74BF /* Assets.xcassets */; };
+		18DE817F2435CF7E6F4A29BA /* DomainEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D480AE4617CD3F151D8B9E9 /* DomainEnums.swift */; };
+		1EBA19E3C9A65CFB98D2E58C /* FilterChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572D8814CBC5851915442FA9 /* FilterChip.swift */; };
+		245FC89F575E4AA3269BCEE1 /* RoundMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32F7B7B95B82B88B6D16C10 /* RoundMapUITests.swift */; };
+		2C49421CD230127E18245A22 /* Motion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E57DE9C3ED7CEB7DDEAF30B /* Motion.swift */; };
+		2D558234CC0525969E4CBB35 /* CriticalPathSmokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A026E3B979E6E634C117F0EB /* CriticalPathSmokeTests.swift */; };
+		3CD56A338C74F74A2B371C35 /* ScreenScaffold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F6578E390AA42C94A44614 /* ScreenScaffold.swift */; };
+		3E4F9EC310C6186DBC402387 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1462368789D635DE7E75CCF5 /* RootView.swift */; };
+		409E783E58CDB0018CF074F6 /* ReadingSaveScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33852740D41DD6D6A38AD91F /* ReadingSaveScreen.swift */; };
+		4DE9E07C9A98F64756D9D697 /* CTAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F643BDF58F128EEB04D0F70 /* CTAButton.swift */; };
+		52245F40DE4CFD40F0A20C29 /* Rows.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0891C75B41D04C26BAA440 /* Rows.swift */; };
+		59E53554402B6B282F0E4E87 /* VisitStopDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E30972041C4554DFC3CAB2B /* VisitStopDetailView.swift */; };
+		5B7378D58CA7108C0ABDC3E7 /* KitMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD6B0A01B818F9C3178080E /* KitMark.swift */; };
+		5FA25EDF2CD0C797D3650CE7 /* RoutePlotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BFD2783596AC7C284A4F04 /* RoutePlotUITests.swift */; };
+		60006AB37E522E8AB9BA7824 /* Metrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2769FC8860BF43DDCD5A208 /* Metrics.swift */; };
+		6379D986D8785659F6A12B19 /* KitRunnerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196785F494A2141B86D0FBC1 /* KitRunnerScreen.swift */; };
+		704CD3910119DFC8C29185A4 /* StreetLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EF7A0FC807679B83E7ACCF /* StreetLine.swift */; };
+		706114CA3DB335A8C9BEB310 /* ReadingDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD05CDF09BA76B6C27290288 /* ReadingDetailScreen.swift */; };
+		71AA1F9361CF56E6296E130D /* InputControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AAAEEF8D30FF6AF78EE970 /* InputControls.swift */; };
+		75DE3756058AA4CAC7CCBC22 /* SmokeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD583BC5F73451EE802FE21F /* SmokeUITests.swift */; };
+		799DE3901A3C3765E2F7C9DB /* RoutePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FAD15AD4132B4412F816DD /* RoutePlot.swift */; };
+		7A03A6595C335540903F6AC6 /* ExportReadingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2CCC1EF4FD3B07A8C711DC /* ExportReadingsScreen.swift */; };
+		7C0F2822541FC8EA0392966B /* Legal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F618126C9DB256DAD7156DBA /* Legal.swift */; };
+		832DB3CFFBF78EB6F5A55838 /* ResultCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5271860EB7C54AA57BE87428 /* ResultCard.swift */; };
+		9108FD4E239762B567ADB766 /* KitsHubScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C1566D1AD14E32FAA6D504 /* KitsHubScreen.swift */; };
+		9E3F2E34B7B909832BC10313 /* StoopBookSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A8B265FAC0841077FFDC6 /* StoopBookSeed.swift */; };
+		9F18785342D5D8E220264F26 /* StoopBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621DB896282093A9EF1A04E8 /* StoopBookApp.swift */; };
+		A21688BDE87D836295D54B5E /* ReadingEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020459F6C58410089201241B /* ReadingEngine.swift */; };
+		A50291E748DCEFE947E82B20 /* RowhouseElevation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A64D0D12B1F526F62C8AA6 /* RowhouseElevation.swift */; };
+		AB7A0B56175D9762C48EA325 /* WorkingBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186ABB95B6180F5ABE900548 /* WorkingBookUITests.swift */; };
+		AD48800B89C309F7006E2CE5 /* ReadingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4761F768BBF17DFEF65068FB /* ReadingsScreen.swift */; };
+		B4C1F5F960882C4D20EF69CE /* RoundBuilderScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DED0CA2FEA92647DD748D90 /* RoundBuilderScreen.swift */; };
+		C04959F5765E581E0FFDF7BE /* SectionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E533EB0D981897CFE348E4E6 /* SectionCard.swift */; };
+		C3B748A37922BD466B7B2E01 /* FieldReadout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713AAA0DDDE2B5650997EEDD /* FieldReadout.swift */; };
+		C574C8B7E003DF69AFF06625 /* CompareReadingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0901CA3DE2CEF3B1E448FE2B /* CompareReadingsScreen.swift */; };
+		C787C90C5C071418EF5D98A7 /* StoopBookStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05B5D378AF7B67395340BD8 /* StoopBookStore.swift */; };
+		CBF81841D2C987C0C9C34312 /* AppBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593BC2E3875D2BA9CF02EA02 /* AppBackground.swift */; };
+		CCA71B6F0C8ECE02345EA9CB /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87634CC2EAFA2585BAB2202C /* SettingsScreen.swift */; };
+		CD1ACB3E77A70CD23AF88218 /* MorningBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97EEFB268DF15FD03B84738 /* MorningBook.swift */; };
+		CD7F333A3621155741FF1060 /* EmptyStateCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B641BB4FF876DF2C01EAB9 /* EmptyStateCard.swift */; };
+		D96F40D7B0902798CBCB4584 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32C8412B14EBCF7654EA350 /* AppTheme.swift */; };
+		DA2535B9726A57ED96BD9F3B /* Repositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3005D971FF4F3592920E59E1 /* Repositories.swift */; };
+		E1E430504B3C2088DA5CA0E4 /* AppRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A6E0F8C5DED5B2163417D /* AppRoute.swift */; };
+		E7B9939ED7B4B8AF1478FDCA /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4611C022FAF733B0082BE55 /* AppDependencies.swift */; };
+		ED177613AE56A66267F52DF2 /* MapServiceProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598FE7DC109839839D4D431C /* MapServiceProbe.swift */; };
+		EF8AA797F22B9B2D3C439A47 /* RoundMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDD5CC0D422EE563FB916C4 /* RoundMap.swift */; };
+		FF8FBED3AB1B5223B6572D1D /* PlacesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C73F2A4FBB71A0B4DD1D1C /* PlacesScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EC3A52BF53A5BA7581ED901 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9743F2FDA23CB5D94595CE86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8275E0AEC418A73CCDB93E38;
+			remoteInfo = StoopBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		020459F6C58410089201241B /* ReadingEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingEngine.swift; sourceTree = "<group>"; };
+		02EF7A0FC807679B83E7ACCF /* StreetLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetLine.swift; sourceTree = "<group>"; };
+		0901CA3DE2CEF3B1E448FE2B /* CompareReadingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareReadingsScreen.swift; sourceTree = "<group>"; };
+		1462368789D635DE7E75CCF5 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		17F6578E390AA42C94A44614 /* ScreenScaffold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenScaffold.swift; sourceTree = "<group>"; };
+		186ABB95B6180F5ABE900548 /* WorkingBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingBookUITests.swift; sourceTree = "<group>"; };
+		196785F494A2141B86D0FBC1 /* KitRunnerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitRunnerScreen.swift; sourceTree = "<group>"; };
+		29FAD15AD4132B4412F816DD /* RoutePlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutePlot.swift; sourceTree = "<group>"; };
+		2DDD5CC0D422EE563FB916C4 /* RoundMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundMap.swift; sourceTree = "<group>"; };
+		2F643BDF58F128EEB04D0F70 /* CTAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAButton.swift; sourceTree = "<group>"; };
+		3005D971FF4F3592920E59E1 /* Repositories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repositories.swift; sourceTree = "<group>"; };
+		33852740D41DD6D6A38AD91F /* ReadingSaveScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingSaveScreen.swift; sourceTree = "<group>"; };
+		34009912C76370CDD1DFD6CA /* SignatureLineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignatureLineUITests.swift; sourceTree = "<group>"; };
+		3D480AE4617CD3F151D8B9E9 /* DomainEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainEnums.swift; sourceTree = "<group>"; };
+		43E0D870CF3B3F87B39CB28B /* DomainModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainModels.swift; sourceTree = "<group>"; };
+		4761F768BBF17DFEF65068FB /* ReadingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingsScreen.swift; sourceTree = "<group>"; };
+		4DED0CA2FEA92647DD748D90 /* RoundBuilderScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundBuilderScreen.swift; sourceTree = "<group>"; };
+		500A8B265FAC0841077FFDC6 /* StoopBookSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoopBookSeed.swift; sourceTree = "<group>"; };
+		5271860EB7C54AA57BE87428 /* ResultCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCard.swift; sourceTree = "<group>"; };
+		572D8814CBC5851915442FA9 /* FilterChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterChip.swift; sourceTree = "<group>"; };
+		58D7B3490C789FFC029C74BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		593BC2E3875D2BA9CF02EA02 /* AppBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBackground.swift; sourceTree = "<group>"; };
+		598FE7DC109839839D4D431C /* MapServiceProbe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapServiceProbe.swift; sourceTree = "<group>"; };
+		60A64D0D12B1F526F62C8AA6 /* RowhouseElevation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowhouseElevation.swift; sourceTree = "<group>"; };
+		60AAAEEF8D30FF6AF78EE970 /* InputControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputControls.swift; sourceTree = "<group>"; };
+		60B641BB4FF876DF2C01EAB9 /* EmptyStateCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateCard.swift; sourceTree = "<group>"; };
+		621DB896282093A9EF1A04E8 /* StoopBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoopBookApp.swift; sourceTree = "<group>"; };
+		63C1566D1AD14E32FAA6D504 /* KitsHubScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitsHubScreen.swift; sourceTree = "<group>"; };
+		713AAA0DDDE2B5650997EEDD /* FieldReadout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldReadout.swift; sourceTree = "<group>"; };
+		7E30972041C4554DFC3CAB2B /* VisitStopDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitStopDetailView.swift; sourceTree = "<group>"; };
+		86DF002AF27E892F284526CB /* StoopBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoopBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87634CC2EAFA2585BAB2202C /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		8A1A6E0F8C5DED5B2163417D /* AppRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRoute.swift; sourceTree = "<group>"; };
+		934AC45694F3255835C72F48 /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
+		9E57DE9C3ED7CEB7DDEAF30B /* Motion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion.swift; sourceTree = "<group>"; };
+		A026E3B979E6E634C117F0EB /* CriticalPathSmokeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriticalPathSmokeTests.swift; sourceTree = "<group>"; };
+		A05B5D378AF7B67395340BD8 /* StoopBookStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoopBookStore.swift; sourceTree = "<group>"; };
+		AD05CDF09BA76B6C27290288 /* ReadingDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingDetailScreen.swift; sourceTree = "<group>"; };
+		B97EEFB268DF15FD03B84738 /* MorningBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorningBook.swift; sourceTree = "<group>"; };
+		BA0891C75B41D04C26BAA440 /* Rows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rows.swift; sourceTree = "<group>"; };
+		C32F7B7B95B82B88B6D16C10 /* RoundMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundMapUITests.swift; sourceTree = "<group>"; };
+		CD583BC5F73451EE802FE21F /* SmokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmokeUITests.swift; sourceTree = "<group>"; };
+		D6BFD2783596AC7C284A4F04 /* RoutePlotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutePlotUITests.swift; sourceTree = "<group>"; };
+		DD2CCC1EF4FD3B07A8C711DC /* ExportReadingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportReadingsScreen.swift; sourceTree = "<group>"; };
+		DEDB219FC914856C99DE9865 /* StoopBookUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = StoopBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C73F2A4FBB71A0B4DD1D1C /* PlacesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesScreen.swift; sourceTree = "<group>"; };
+		E32C8412B14EBCF7654EA350 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		E533EB0D981897CFE348E4E6 /* SectionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionCard.swift; sourceTree = "<group>"; };
+		EDD6B0A01B818F9C3178080E /* KitMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitMark.swift; sourceTree = "<group>"; };
+		F2769FC8860BF43DDCD5A208 /* Metrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metrics.swift; sourceTree = "<group>"; };
+		F2B61FFDA133B0367B12E0C5 /* PatrolEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatrolEngine.swift; sourceTree = "<group>"; };
+		F4611C022FAF733B0082BE55 /* AppDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
+		F618126C9DB256DAD7156DBA /* Legal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Legal.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0999E21BBD97F5AC720C1D16 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2F643BDF58F128EEB04D0F70 /* CTAButton.swift */,
+				60B641BB4FF876DF2C01EAB9 /* EmptyStateCard.swift */,
+				572D8814CBC5851915442FA9 /* FilterChip.swift */,
+				60AAAEEF8D30FF6AF78EE970 /* InputControls.swift */,
+				F2769FC8860BF43DDCD5A208 /* Metrics.swift */,
+				9E57DE9C3ED7CEB7DDEAF30B /* Motion.swift */,
+				5271860EB7C54AA57BE87428 /* ResultCard.swift */,
+				BA0891C75B41D04C26BAA440 /* Rows.swift */,
+				17F6578E390AA42C94A44614 /* ScreenScaffold.swift */,
+				E533EB0D981897CFE348E4E6 /* SectionCard.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		0DC7F8902377AE517A42BB62 /* Readings */ = {
+			isa = PBXGroup;
+			children = (
+				AD05CDF09BA76B6C27290288 /* ReadingDetailScreen.swift */,
+				4761F768BBF17DFEF65068FB /* ReadingsScreen.swift */,
+			);
+			path = Readings;
+			sourceTree = "<group>";
+		};
+		1122B25F2D4983280AE8AA65 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				593BC2E3875D2BA9CF02EA02 /* AppBackground.swift */,
+				E32C8412B14EBCF7654EA350 /* AppTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		149DA42B728F089354B85F33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86DF002AF27E892F284526CB /* StoopBook.app */,
+				DEDB219FC914856C99DE9865 /* StoopBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FA755D2003EF4733014A6EB /* Chassis */ = {
+			isa = PBXGroup;
+			children = (
+				713AAA0DDDE2B5650997EEDD /* FieldReadout.swift */,
+				EDD6B0A01B818F9C3178080E /* KitMark.swift */,
+				598FE7DC109839839D4D431C /* MapServiceProbe.swift */,
+				2DDD5CC0D422EE563FB916C4 /* RoundMap.swift */,
+				29FAD15AD4132B4412F816DD /* RoutePlot.swift */,
+				60A64D0D12B1F526F62C8AA6 /* RowhouseElevation.swift */,
+				02EF7A0FC807679B83E7ACCF /* StreetLine.swift */,
+			);
+			path = Chassis;
+			sourceTree = "<group>";
+		};
+		36DB8715272D242AAB25FEFE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1462368789D635DE7E75CCF5 /* RootView.swift */,
+				621DB896282093A9EF1A04E8 /* StoopBookApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		54B1BCB26588566D4BC4AD38 /* StoopBook */ = {
+			isa = PBXGroup;
+			children = (
+				58D7B3490C789FFC029C74BF /* Assets.xcassets */,
+				F618126C9DB256DAD7156DBA /* Legal.swift */,
+				36DB8715272D242AAB25FEFE /* App */,
+				2FA755D2003EF4733014A6EB /* Chassis */,
+				D610157D137CA87350CD250F /* Features */,
+				869609BEC0F83164B803B869 /* Kernel */,
+				0999E21BBD97F5AC720C1D16 /* Shared */,
+				1122B25F2D4983280AE8AA65 /* Theme */,
+			);
+			path = StoopBook;
+			sourceTree = "<group>";
+		};
+		81C8ECD3D810A0E4D12C1210 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				87634CC2EAFA2585BAB2202C /* SettingsScreen.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		857587F371FFD4551FF2F8AB /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				934AC45694F3255835C72F48 /* OnboardingScreen.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		869609BEC0F83164B803B869 /* Kernel */ = {
+			isa = PBXGroup;
+			children = (
+				F4611C022FAF733B0082BE55 /* AppDependencies.swift */,
+				8A1A6E0F8C5DED5B2163417D /* AppRoute.swift */,
+				3D480AE4617CD3F151D8B9E9 /* DomainEnums.swift */,
+				43E0D870CF3B3F87B39CB28B /* DomainModels.swift */,
+				B97EEFB268DF15FD03B84738 /* MorningBook.swift */,
+				F2B61FFDA133B0367B12E0C5 /* PatrolEngine.swift */,
+				020459F6C58410089201241B /* ReadingEngine.swift */,
+				3005D971FF4F3592920E59E1 /* Repositories.swift */,
+				500A8B265FAC0841077FFDC6 /* StoopBookSeed.swift */,
+				A05B5D378AF7B67395340BD8 /* StoopBookStore.swift */,
+			);
+			path = Kernel;
+			sourceTree = "<group>";
+		};
+		AE800F0ABBE9151FF8F18E30 /* Compare */ = {
+			isa = PBXGroup;
+			children = (
+				0901CA3DE2CEF3B1E448FE2B /* CompareReadingsScreen.swift */,
+			);
+			path = Compare;
+			sourceTree = "<group>";
+		};
+		B83E3B65A8FE2C0E031F8C64 /* Export */ = {
+			isa = PBXGroup;
+			children = (
+				DD2CCC1EF4FD3B07A8C711DC /* ExportReadingsScreen.swift */,
+			);
+			path = Export;
+			sourceTree = "<group>";
+		};
+		C6E5DF262F3D3CCF60BDEAA1 /* Places */ = {
+			isa = PBXGroup;
+			children = (
+				E2C73F2A4FBB71A0B4DD1D1C /* PlacesScreen.swift */,
+				7E30972041C4554DFC3CAB2B /* VisitStopDetailView.swift */,
+			);
+			path = Places;
+			sourceTree = "<group>";
+		};
+		CD5F109844828B1A92AA98BB = {
+			isa = PBXGroup;
+			children = (
+				54B1BCB26588566D4BC4AD38 /* StoopBook */,
+				E62F59268C97EBB6499ED34D /* StoopBookUITests */,
+				149DA42B728F089354B85F33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D610157D137CA87350CD250F /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				AE800F0ABBE9151FF8F18E30 /* Compare */,
+				B83E3B65A8FE2C0E031F8C64 /* Export */,
+				E5147390E95760BE135A56F0 /* Kits */,
+				857587F371FFD4551FF2F8AB /* Onboarding */,
+				C6E5DF262F3D3CCF60BDEAA1 /* Places */,
+				0DC7F8902377AE517A42BB62 /* Readings */,
+				81C8ECD3D810A0E4D12C1210 /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		E5147390E95760BE135A56F0 /* Kits */ = {
+			isa = PBXGroup;
+			children = (
+				196785F494A2141B86D0FBC1 /* KitRunnerScreen.swift */,
+				63C1566D1AD14E32FAA6D504 /* KitsHubScreen.swift */,
+				33852740D41DD6D6A38AD91F /* ReadingSaveScreen.swift */,
+				4DED0CA2FEA92647DD748D90 /* RoundBuilderScreen.swift */,
+			);
+			path = Kits;
+			sourceTree = "<group>";
+		};
+		E62F59268C97EBB6499ED34D /* StoopBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A026E3B979E6E634C117F0EB /* CriticalPathSmokeTests.swift */,
+				C32F7B7B95B82B88B6D16C10 /* RoundMapUITests.swift */,
+				D6BFD2783596AC7C284A4F04 /* RoutePlotUITests.swift */,
+				34009912C76370CDD1DFD6CA /* SignatureLineUITests.swift */,
+				CD583BC5F73451EE802FE21F /* SmokeUITests.swift */,
+				186ABB95B6180F5ABE900548 /* WorkingBookUITests.swift */,
+			);
+			path = StoopBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FF764151560DFC4643FF10F /* StoopBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B69AC10FCC1B756B70708D6 /* Build configuration list for PBXNativeTarget "StoopBookUITests" */;
+			buildPhases = (
+				1269A944ECABD115A6A10C73 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D024830C1EBE1EA1C93A37FC /* PBXTargetDependency */,
+			);
+			name = StoopBookUITests;
+			packageProductDependencies = (
+			);
+			productName = StoopBookUITests;
+			productReference = DEDB219FC914856C99DE9865 /* StoopBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8275E0AEC418A73CCDB93E38 /* StoopBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D54C41DDBA70195EA2CDC85 /* Build configuration list for PBXNativeTarget "StoopBook" */;
+			buildPhases = (
+				435F387B9D35EE63AD13D0E6 /* Sources */,
+				817920270F06FBCBF4E88509 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StoopBook;
+			packageProductDependencies = (
+			);
+			productName = StoopBook;
+			productReference = 86DF002AF27E892F284526CB /* StoopBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9743F2FDA23CB5D94595CE86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3FF764151560DFC4643FF10F = {
+						DevelopmentTeam = QPN38WN543;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8275E0AEC418A73CCDB93E38;
+					};
+					8275E0AEC418A73CCDB93E38 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 914BB4F07AD7928695BD5BB7 /* Build configuration list for PBXProject "StoopBook" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CD5F109844828B1A92AA98BB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 149DA42B728F089354B85F33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8275E0AEC418A73CCDB93E38 /* StoopBook */,
+				3FF764151560DFC4643FF10F /* StoopBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		817920270F06FBCBF4E88509 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				122A62E5FAD2631A0CB227D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1269A944ECABD115A6A10C73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D558234CC0525969E4CBB35 /* CriticalPathSmokeTests.swift in Sources */,
+				245FC89F575E4AA3269BCEE1 /* RoundMapUITests.swift in Sources */,
+				5FA25EDF2CD0C797D3650CE7 /* RoutePlotUITests.swift in Sources */,
+				03C853F5772339892C0C5335 /* SignatureLineUITests.swift in Sources */,
+				75DE3756058AA4CAC7CCBC22 /* SmokeUITests.swift in Sources */,
+				AB7A0B56175D9762C48EA325 /* WorkingBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435F387B9D35EE63AD13D0E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF81841D2C987C0C9C34312 /* AppBackground.swift in Sources */,
+				E7B9939ED7B4B8AF1478FDCA /* AppDependencies.swift in Sources */,
+				E1E430504B3C2088DA5CA0E4 /* AppRoute.swift in Sources */,
+				D96F40D7B0902798CBCB4584 /* AppTheme.swift in Sources */,
+				4DE9E07C9A98F64756D9D697 /* CTAButton.swift in Sources */,
+				C574C8B7E003DF69AFF06625 /* CompareReadingsScreen.swift in Sources */,
+				18DE817F2435CF7E6F4A29BA /* DomainEnums.swift in Sources */,
+				012CEA4C0BBC1A7658E2BFB2 /* DomainModels.swift in Sources */,
+				CD7F333A3621155741FF1060 /* EmptyStateCard.swift in Sources */,
+				7A03A6595C335540903F6AC6 /* ExportReadingsScreen.swift in Sources */,
+				C3B748A37922BD466B7B2E01 /* FieldReadout.swift in Sources */,
+				1EBA19E3C9A65CFB98D2E58C /* FilterChip.swift in Sources */,
+				71AA1F9361CF56E6296E130D /* InputControls.swift in Sources */,
+				5B7378D58CA7108C0ABDC3E7 /* KitMark.swift in Sources */,
+				6379D986D8785659F6A12B19 /* KitRunnerScreen.swift in Sources */,
+				9108FD4E239762B567ADB766 /* KitsHubScreen.swift in Sources */,
+				7C0F2822541FC8EA0392966B /* Legal.swift in Sources */,
+				ED177613AE56A66267F52DF2 /* MapServiceProbe.swift in Sources */,
+				60006AB37E522E8AB9BA7824 /* Metrics.swift in Sources */,
+				CD1ACB3E77A70CD23AF88218 /* MorningBook.swift in Sources */,
+				2C49421CD230127E18245A22 /* Motion.swift in Sources */,
+				08F751910C20F08699CC52F9 /* OnboardingScreen.swift in Sources */,
+				081646E8F26F3DD1DB206A26 /* PatrolEngine.swift in Sources */,
+				FF8FBED3AB1B5223B6572D1D /* PlacesScreen.swift in Sources */,
+				706114CA3DB335A8C9BEB310 /* ReadingDetailScreen.swift in Sources */,
+				A21688BDE87D836295D54B5E /* ReadingEngine.swift in Sources */,
+				409E783E58CDB0018CF074F6 /* ReadingSaveScreen.swift in Sources */,
+				AD48800B89C309F7006E2CE5 /* ReadingsScreen.swift in Sources */,
+				DA2535B9726A57ED96BD9F3B /* Repositories.swift in Sources */,
+				832DB3CFFBF78EB6F5A55838 /* ResultCard.swift in Sources */,
+				3E4F9EC310C6186DBC402387 /* RootView.swift in Sources */,
+				B4C1F5F960882C4D20EF69CE /* RoundBuilderScreen.swift in Sources */,
+				EF8AA797F22B9B2D3C439A47 /* RoundMap.swift in Sources */,
+				799DE3901A3C3765E2F7C9DB /* RoutePlot.swift in Sources */,
+				A50291E748DCEFE947E82B20 /* RowhouseElevation.swift in Sources */,
+				52245F40DE4CFD40F0A20C29 /* Rows.swift in Sources */,
+				3CD56A338C74F74A2B371C35 /* ScreenScaffold.swift in Sources */,
+				C04959F5765E581E0FFDF7BE /* SectionCard.swift in Sources */,
+				CCA71B6F0C8ECE02345EA9CB /* SettingsScreen.swift in Sources */,
+				9F18785342D5D8E220264F26 /* StoopBookApp.swift in Sources */,
+				9E3F2E34B7B909832BC10313 /* StoopBookSeed.swift in Sources */,
+				C787C90C5C071418EF5D98A7 /* StoopBookStore.swift in Sources */,
+				704CD3910119DFC8C29185A4 /* StreetLine.swift in Sources */,
+				59E53554402B6B282F0E4E87 /* VisitStopDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D024830C1EBE1EA1C93A37FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8275E0AEC418A73CCDB93E38 /* StoopBook */;
+			targetProxy = 0EC3A52BF53A5BA7581ED901 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CB709F3505A7EFE1B1B41A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Config/StoopBook.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = L2FM598Q7R;
+				INFOPLIST_FILE = StoopBook/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = StoopBook;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MarioCarmona.StoopBook;
+				PRODUCT_DISPLAY_NAME = StoopBook;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4577D293F07506160164F870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = QPN38WN543;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StoopBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MarioCarmona.StoopBook;
+				PRODUCT_NAME = StoopBook;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		66F710AC15D3E468D564FA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Config/StoopBook.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = L2FM598Q7R;
+				INFOPLIST_FILE = StoopBook/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = StoopBook;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MarioCarmona.StoopBook;
+				PRODUCT_DISPLAY_NAME = StoopBook;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AC6D24B1A106EF274B024C25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				DEVELOPMENT_TEAM = QPN38WN543;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MarioCarmona.StoopBook.uitests;
+				PRODUCT_MODULE_NAME = StoopBookUITests;
+				PRODUCT_NAME = StoopBookUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StoopBook;
+			};
+			name = Release;
+		};
+		C2CC9DF498D6B448E307B9C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = QPN38WN543;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StoopBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MarioCarmona.StoopBook;
+				PRODUCT_NAME = StoopBook;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FD0F6A7A6517FDEF26C8346F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				DEVELOPMENT_TEAM = QPN38WN543;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MarioCarmona.StoopBook.uitests;
+				PRODUCT_MODULE_NAME = StoopBookUITests;
+				PRODUCT_NAME = StoopBookUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StoopBook;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B69AC10FCC1B756B70708D6 /* Build configuration list for PBXNativeTarget "StoopBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD0F6A7A6517FDEF26C8346F /* Debug */,
+				AC6D24B1A106EF274B024C25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4D54C41DDBA70195EA2CDC85 /* Build configuration list for PBXNativeTarget "StoopBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CB709F3505A7EFE1B1B41A0 /* Debug */,
+				66F710AC15D3E468D564FA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		914BB4F07AD7928695BD5BB7 /* Build configuration list for PBXProject "StoopBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4577D293F07506160164F870 /* Debug */,
+				C2CC9DF498D6B448E307B9C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9743F2FDA23CB5D94595CE86 /* Project object */;
+}

@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Xcode
+xcuserdata/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Build
+.build/
+DerivedData/
+
+# Secrets — never commit
+*.p8
+*.p12
+*.mobileprovision
+AuthKey_*.p8
+
+# Pipeline artifacts (local only)
+OUTPUTS/
+*.log
