@@ -42,7 +42,6 @@ workflows:
   app_store:
     description: XcodeGen → archive → upload IPA to App Store Connect (metadata stays in ASC API).
     steps:
-    - activate-ssh-key@4: {}
     - git-clone@8: {}
     - brew-install@1:
         inputs:
